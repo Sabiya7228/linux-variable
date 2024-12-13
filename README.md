@@ -34,20 +34,20 @@ echo $result  # Output: 8
 # Division
 result=$((20 / 4))
 echo $result  # Output: 5
-2. Using let Command
+# Using let Command
 The let command is another way to perform arithmetic operations without needing the dollar sign or parentheses.
 Example:
-bash
+
 let result=10*20
 echo $result  # Output: 200
-3. Using bc for Floating Point Arithmetic
+# Using bc for Floating Point Arithmetic
 For more complex calculations, especially those involving floating-point numbers, you can use the bc command. This command supports arbitrary precision and allows for more advanced mathematical functions.
 Example:
-bash
+
 result=$(echo "scale=2; 10 / 3" | bc)
 echo $result  # Output: 3.33
 In this example, scale=2 sets the number of decimal places.
-4. Using expr Command
+#  Using expr Command
 The expr command can also be used for basic arithmetic but requires spaces around operators.
 # Example:
 a=10
