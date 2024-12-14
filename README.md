@@ -48,6 +48,7 @@ result=$(echo "scale=2; 10 / 3" | bc)
 echo $result  # Output: 3.33
 In this example, scale=2 sets the number of decimal places.
 #  Using expr Command
+the command expr(expression) computes a given expression and displays the output
 The expr command can also be used for basic arithmetic but requires spaces around operators.
 # Example:
 a=10
