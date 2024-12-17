@@ -1,3 +1,6 @@
+# set and unset
+the set command is a build-in function in a bash and few other cells which we can use to define the values.
+it is bascaially an operation 
 # linux-variable
  Variables are fundamental to programming and scripting in Linux, allowing users to store values such as strings, numbers, and commands for later use.
   Variables are used to store values and can be referenced later in the script. To assign a value to a variable, use the syntax varname=value.
@@ -68,6 +71,8 @@ Summary of Operators:
 Addition: +
 Subtraction: -
 Multiplication: *
+# unset 
+the unset command is also a built in function in bash which we can use to remove a variable which is unset
 Division: /
 Modulus: %
 # Conclusion
